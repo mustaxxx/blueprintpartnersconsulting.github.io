@@ -1,0 +1,303 @@
+
+
+*{margin:0;
+padding:0;}
+
+body{font-family: 'Montserrat', sans-serif!important;
+background: linear-gradient(to bottom, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.85) 100%), url(img/hq.jpg) no-repeat;
+background-size:cover;
+}
+
+
+.spinner-wrapper {
+position: fixed;
+top: 0;
+background-image:url("img/loading.gif");
+background-position:center;
+background-repeat:no-repeat;
+left: 0;
+right: 0;
+bottom: 0;
+background-color:white;
+z-index: 999999;
+}
+
+.spinner{position: absolute;
+top: 48%;
+transition:0.3s;
+left: 48%;}
+
+header p{font-size:1.2em;}
+
+h2{color:rgb(85, 111, 181)!important;
+margin-top:0px!important;}
+
+.row{margin:0!important;
+	padding:0!important;}
+
+
+.modal-dialog{
+	width:auto!important;
+	max-width:800px;
+}
+
+.pe{color:white!important;
+background-color:rgb(85, 111, 181)!important;
+padding:20px;
+transition:0.3s;}
+.pe:hover{transform:scale(1.05);
+transition:0.3s;}
+
+.pi{color:white!important;
+background-color:rgb(85, 111, 181)!important;
+padding:10px;
+margin-top:5px;
+transition:0.3s;}
+.pi:hover{transform:scale(1.05);
+transition:0.3s;}
+
+.modal h4{
+	font-weight:bold;
+}
+nav img:hover{transform:scale(1.1);
+transition:0.3s;}
+nav img{
+transition:0.3s;}
+.modal-body h4{padding-top:20px;}
+
+#content img{width:100%;}
+
+nav {font-size:1.1em;
+background-color:white!important;
+}
+h2{font-size:2.5em;}
+.nav>li{text-align:right;}
+
+#myNavbar[aria-expanded="true"]{background-color:white!important;
+}
+
+nav a{color:rgb(85, 111, 181)!important;
+transition:0.3s!important;}
+
+.slick-track{display: flex!important;
+  justify-content: center!important;
+  align-items: center!important; }
+#clients img{width:80%;
+margin:0px 10%;}
+nav ul{margin-top:7.5px!important;}
+
+#clients h2{padding-bottom:0px!important;
+padding-top:50px;}
+
+.navbar img{height:65px;}
+#headerdiv{position: relative;
+top: calc(50% + 45px);
+transform: translateY(-50%);
+margin:0 auto; 
+text-align:left;
+}
+.navbar a:hover{background-color:transparent!important;
+color:blue!important;
+transition:0.3s!important;
+font-size:1.1em;
+font-weight:200;}
+section h2{text-align:center;
+padding-bottom:50px;
+}
+#height{height:100vh;}
+#home{height:100vh;}
+.navbar {margin-bottom:0px!important;
+border-radius:0px!important;
+    z-index: 999!important;
+    position: fixed!important;
+    width: 100%!important;}
+.icon-bar{background-color:rgb(85, 111, 181)!important;}
+p, ul{font-size:1.2em;}
+
+header{background: linear-gradient(to bottom, rgba(80, 80, 80, 0.4) 0%, rgba(80, 80, 80, 0.4) 50%, rgba(0, 0, 0, 0.2) 100%), url('img/hq.jpg') no-repeat;
+background-position:center center;
+height:90vh;
+background-size:cover;
+}
+#ha{padding:0;
+margin:0;
+font-size:4em;
+display:block;}
+
+#hb{padding:0;
+letter-spacing:-1px;
+margin:0 0 0 2px;
+font-size:1.6em;
+display:block;}
+
+#hc{
+font-size:1.5em;
+margin:0 15%;}
+.anchor{
+  height: 68px; /*same height as header*/
+  margin-top: -68px; /*same height as header kako nebi se raspalo i kako bi se ponistio height*/
+  display:hidden;
+  z-index:-2!important
+}
+
+header h1, header p{color:white!important;
+display:inline-block;
+font-weight:bold!important;
+padding:10px;}
+
+#step{margin-top:20px;}
+
+section h4{padding-bottom:30px;
+}
+h4{font-size:20px;}
+.navbar-header button{margin:16px;}
+
+
+footer {background-color:rgb(85, 111, 181)!important;
+color:white;}
+footer a{color:white;
+padding:20px;}
+footer a:hover{color:lightgrey;
+}
+#footera{padding:20px 0;}
+#header_two{background-color:rgba(0, 52, 113, 0.83);
+width:80%;
+float:left;
+padding:30px 0;}
+#headerdiv{float:left;}
+#header_one{background-color:rgba(0, 84, 166, 0.67);
+float:left;
+width:100%;
+margin-bottom:50px;}
+#hedrz{padding:20px;
+float:left;}
+#header_one img{float:left;
+margin-top:15.5px;}
+.top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+color:white;}
+.top a{color:white;
+border-radius:50%;
+transition:0.3s;
+}
+
+#across{ background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 1) 100%), url('img/london.jpg') no-repeat;
+padding:200px 0!important;
+background-attachment:fixed;
+text-align:center;
+color:white;
+background-position:center center;
+}
+
+#across h2{padding-bottom:50px;}
+#across p{padding: 0px 10%;}
+
+.top a:visited{color:white;
+}
+
+.top a:hover{color:lightgrey;
+}
+
+.top i{
+  display: inline-block;
+  border-radius: 60px;
+  background-color:rgb(85, 111, 181)!important;
+  box-shadow: 0px 0px 5px #fff;
+  padding: 0.8em 0.9em;
+
+}
+
+ul {
+	list-style:none;
+}
+
+
+#mail{
+	font-size:1em;
+	display: inline-block;
+    margin-bottom: 10px;
+	color:white!important;
+}
+
+	
+}
+#about img{padding-top:0px;}
+#services img{padding-bottom:0px;}
+#about,#services,#contact{
+padding:50px 0!important;
+}
+
+#contact{ background-color:rgb(85, 111, 181)!important;
+color:white!important;
+text-align:center;}
+
+.aboutr{text-align:right;}
+
+
+.aboutr ul{direction:rtl;}
+
+#about,#clients,#work{border-bottom:2px solid rgb(85, 111, 181);}
+
+#contact h2{color:white!important;}
+#lt{float:none;}
+#rt{float:none;}
+#clients{padding-bottom:50px!important;}
+
+#work,#team{padding:50px 0!important;}
+
+footer p{    display: inline-block;
+    float: right;
+	padding-top:0}
+
+	
+	
+	@media only screen and (max-width: 768px) {
+		#header_two{background-color:rgba(0, 52, 113, 0.83);
+width:100%;
+float:left;
+padding:20px 0;}
+#headerdiv{float:left;}
+#header_one{background-color:rgba(0, 84, 166, 0.67);
+float:left;
+width:100%;
+margin-bottom:50px;}
+#hedrz{padding:20px;
+float:left;}
+#header_one img{float:left;
+height:70px;
+margin-top:12px;}
+		#ha{padding:0;
+margin:0;
+font-size:2.4em;
+display:block;}
+
+#hb{padding:0;
+margin:0;
+font-size:1em;
+display:block;}
+
+#hc{
+margin:0 5%;
+font-size:1em;}
+ #headerdiv{margin-top:30px;}
+#about img{padding-top:30px;}
+#services img,#team img{padding-bottom:50px;}
+footer p{    display: inline-block;
+    float: right;
+	padding-top:20px;
+	text-align:center;}
+	.aboutr ul{direction:inherit;}
+	#services > div.aboutr.col-lg-6.col-md-6{text-align:left;}
+
+#team > div.aboutr.col-lg-6.col-md-6{text-align:left;}
+#mail{
+	font-size:0.9em;
+	color:white!important;
+}
+#lt{float:left;
+padding:10px;}
+#rt{float:right;
+padding:10px;}
+}
