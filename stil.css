@@ -99,7 +99,7 @@ text-align:left;
 .navbar a:hover{background-color:transparent!important;
 color:blue!important;
 transition:0.3s!important;
-font-size:1.1em;
+transform:scale(1.1);
 font-weight:200;}
 section h2{text-align:center;
 padding-bottom:50px;
